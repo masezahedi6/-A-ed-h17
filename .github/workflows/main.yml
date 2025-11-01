@@ -3,7 +3,6 @@ name: Project
 on:
   schedule:
     - cron: '00 17 * * *'
-  workflow_dispatch:
 
 jobs:
   run-masoud:
